@@ -277,7 +277,15 @@ a {
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
-  overflow: hidden;
+}
+.card__header {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.card__body {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 
 .card__header,
@@ -304,10 +312,6 @@ a {
 }
 
 /* Plans */
-.plan {
-  margin: 30px;
-}
-
 .plan__name {
   color: #fff;
   font-size: 2.4rem;
