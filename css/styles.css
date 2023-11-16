@@ -621,6 +621,7 @@ a {
 }
 
 .block__header {
+  margin-bottom: 4rem;
   text-align: center;
 }
 
@@ -765,7 +766,7 @@ a {
   }
 }
 
-/* Plans Block */
+/* Plan Blocks */
 .block-plans .grid {
   gap: 8rem 4rem;
 }
@@ -775,7 +776,7 @@ a {
   max-width: 500px;
 }
 
-/* Features */
+/* Feature Blocks */
 .feature {
   gap: 4rem 2rem;
   margin: 12rem 0;
