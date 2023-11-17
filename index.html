@@ -7,11 +7,20 @@
       name="description"
       content="Deploy you website in less than 60 seconds."
     />
-    <meta property="og:title" content="Moshify..." />
-    <meta property="og:description" content="Moshify..." />
+    <meta
+      property="og:title"
+      content="Moshify - Deploy you website in less than 60 seconds."
+    />
+    <meta
+      property="og:description"
+      content="Moshify is a single page design for a mock cloud hosting company. Ideal for web developers and designers."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://" />
-    <meta property="og:url" content="http://moshified.com" />
+    <meta
+      property="og:image"
+      content="https://cloudifed.netlify.app/cloudify.jpg"
+    />
+    <meta property="og:url" content="https://cloudifed.netlify.app" />
     <title>Moshify - Go Online for Just $10</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,14 +28,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="Moshify" class="nav__brand" href="/"
+          ><img src="images/logo.svg" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -73,6 +83,7 @@
         </header>
         <div class="input-group">
           <input
+            aria-label="Domain"
             type="text"
             class="input"
             placeholder="Enter domain name here..."
