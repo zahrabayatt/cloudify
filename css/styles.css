@@ -267,13 +267,20 @@ a {
 }
 
 .btn--stretched {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .btn--block {
   width: 100%;
   display: inline-block;
+}
+
+@media screen and (min-width: 425px) {
+  .btn--stretched {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
